@@ -2,6 +2,8 @@
 
 此文件用来对 eslintrc 文件说明。
 
+此工程中只有一个 `eslintrc` 文件实现校验，是因为编辑器 `vscode` 集成了插件，直接写配置文件即可生效。[梳理文档](https://github.com/zzugbb/share-docs/wiki/eslint)
+
 ## 具体说明
 
 ```json
