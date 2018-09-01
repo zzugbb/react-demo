@@ -1,0 +1,71 @@
+.empty, .quest-preview, .download, .analysis, .my-record {
+  cursor: pointer;
+}
+
+.search-area {
+  margin: 20px 0;
+}
+
+.search-name {
+  height: 38px;
+  line-height: 38px;
+  width: 433px;
+  border: #eaeaea solid 1px;
+  padding-left: 5px;
+}
+
+.search-button {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 75px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #4385ff;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.quest-input {
+  margin-right: 10px;
+}
+
+.quest-area {
+  line-height: 30px;
+  display: inline;
+}
+
+.quest-from {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.quest-from-name {
+  color: red;
+}
+
+.all-input-area {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 70px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #1c64eb;
+  border: #1c64eb solid 1px;
+  border-radius: 5px;
+}
+
+.all-input-area input {
+  vertical-align: middle;
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "react/prop-types": 0,
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "array-bracket-spacing": [2, "never"],
+    "block-scoped-var": 1,
+    "brace-style": [2, "1tbs"],
+    "comma-dangle": [2, "never"],
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "comma-style": [2, "last"]
+  }
+}
