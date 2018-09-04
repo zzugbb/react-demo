@@ -1,0 +1,99 @@
+.game {
+  background-color: white;
+  width: 94%;
+  padding:16px 3%;
+}
+
+.game-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.game-menu a {
+  padding-right: 16px;
+}
+
+.score {
+  display: inline;
+}
+
+.game-background {
+  width: 100%;
+  margin: 10px 0; 
+}
+
+.game-background table {
+  border-collapse: collapse;
+}
+
+.game-background table td {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.game-info {
+  width: 100%;
+}
+
+.game-background table td img {
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+  height:100%;
+}
+
+.black {
+  background-color: black;
+  width: 100%;
+  height:100%;
+}
+
+.start, .pause {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.restart {
+  margin-left: 10px;
+}
+
+.direction-pos {
+  width: 70%;
+  position: fixed;
+  right: 0;
+  top: 425px;
+}
+
+.direction {
+  position: relative;
+}
+
+img {
+  position: absolute;  
+}
+
+.leftImg {
+  left: -20px;
+  top : 50px;
+}
+
+.rightImg {
+  left: 120px;
+  top : 47px;
+}
+
+.upImg {
+  left: 47px;
+  top : -20px;
+} 
+
+.downImg {
+  left: 47px;
+  top : 110px;
+}
