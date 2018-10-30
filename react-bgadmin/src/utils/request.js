@@ -16,10 +16,7 @@ import axios from 'axios';
  *     .then(function(response) {
  *       console.log(response); //返回结果
  *     })
- * --------500错误-----------------------------------
- * 注：真正的接口报错500， 实际status:500 code:1
- * 业务异常，status:500 code>1
- */
+ 
 
 
 function request(url, params) {
