@@ -16,7 +16,7 @@ import axios from 'axios';
  *     .then(function(response) {
  *       console.log(response); //返回结果
  *     })
- 
+ **/
 
 
 function request(url, params) {
