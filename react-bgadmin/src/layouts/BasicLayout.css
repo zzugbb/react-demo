@@ -1,0 +1,25 @@
+.basic-slider {
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  position: relative;
+  z-index: 10;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 64px;
+  line-height: 64px;
+  background-color: #fff;
+  padding-left: 40px;
+  overflow: hidden;
+}
