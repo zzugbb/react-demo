@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.commentInput {
+  border: #dddddd solid 1px;
+  padding: 30px;
+  width: 500px;
+  margin:  30px auto 0 auto;
+  font-size: 14px;
+}
+
+.name {
+  height: 50px;;
+}
+
+.commentInput span {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.commentInput input {
+  height: 25px;
+  width: 400px;
+  float: right;
+}
+
+.commentInput textarea {
+  height: 110px;
+  width: 400px;
+  float: right;
+}
+
+.submit-button {
+  margin-top: 10px;
+  width: 80px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.commentList {
+  width: 560px;
+  margin : 20px auto 0 auto;
+}
+
+.comment {
+  line-height: 30px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.comment-user {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.comment-user span {
+  color: #00a3cf;
+}
+
+.comment p {
+  display: inline;
+}
+
+.comment-createdtime {
+  display: block;
+  float: right;
+  font-size: 12px;
+}
+
+.comment:hover .comment-delete {
+  color: #00a3cf;
+}
+
+.comment-delete {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 12px;
+  color: transparent;
+  cursor: pointer;
+}
